@@ -1,0 +1,9 @@
+C:\Users\sjaiswal\source\repos\Bypass\bin\Release\Bypass.exe.config
+C:\Users\sjaiswal\source\repos\Bypass\bin\Release\Bypass.exe
+C:\Users\sjaiswal\source\repos\Bypass\bin\Release\Bypass.pdb
+C:\Users\sjaiswal\source\repos\Bypass\bin\Release\System.Management.Automation.dll
+C:\Users\sjaiswal\source\repos\Bypass\obj\Release\Bypass.csprojAssemblyReference.cache
+C:\Users\sjaiswal\source\repos\Bypass\obj\Release\Bypass.csproj.CoreCompileInputs.cache
+C:\Users\sjaiswal\source\repos\Bypass\obj\Release\Bypass.csproj.CopyComplete
+C:\Users\sjaiswal\source\repos\Bypass\obj\Release\Bypass.exe
+C:\Users\sjaiswal\source\repos\Bypass\obj\Release\Bypass.pdb
