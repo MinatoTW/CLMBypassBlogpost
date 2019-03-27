@@ -31,7 +31,7 @@ namespace Bypass {
 
             VirtualProtect(Address, size, 0x40, out p);
             Byte[] Patch = { 0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3 };
-            Marshal.Copy(Patch, 0, unmanagedPointer, 6);
+            Marshal.Copy(Patch, 0, Address, 6);
 
             return 0;
 
